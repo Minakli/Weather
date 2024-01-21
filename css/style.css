@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../fonts/Inter-Light.woff") format("woff");
+  src: url("../fonts/Inter-Light.woff2") format("woff2");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../fonts/Inter-Regular.woff") format("woff");
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../fonts/Inter-Bold.woff") format("woff");
+  src: url("../fonts/Inter-Bold.woff2") format("woff2");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.woff") format("woff");
+  src: url("../fonts/Mulish-Regular.woff2") format("woff2");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+p {
+  margin: 0 auto;
+  text-align: center;
+}
+body {
+  background-color: #8e2de2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  font-family: "Inter-Regular", sans-serif;
+}
+header p {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0em;
+  opacity: 50%;
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
+}
+.show__block {
+  display: block;
+  margin: 0 auto;
+}
+.show__location {
+  margin-bottom: 36px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  opacity: 50%;
+}
+.show__changesity-p {
+  /* display: inline-block; */
+  /* width: 94px; */
+  /* margin: 0 auto;
+  margin: 0 calc(50%-47px); */
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  opacity: 50%;
+  text-decoration: underline;
+}
+.show__changesity-p:hover {
+  cursor: pointer;
+}
+
+.find__block {
+  display: none;
+  margin: 0 auto;
+}
+.find__text {
+  display: block;
+  width: 326px;
+  height: 48px;
+  margin: 0 auto;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+  /* font-family: "Inter-Regular", sans-serif; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  background-color: #8e2de2;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(255, 255, 255);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(255, 255, 255);
+}
+.find__btn {
+  display: block;
+  margin: 36px auto 0 auto;
+  width: 140px;
+  height: 48px;
+  border: 0;
+  border-radius: 8px;
+  color: #8e2de2;
+  outline: 0;
+  /* font-family: "Inter-Regular", sans-serif; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+.wrong__block {
+  display: none;
+}
+
+.wrong__uppertext {
+  /* font-family: "Inter-Regular", sans-serif; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.wrong__lowertext {
+  /* //styleName: Body/Small; */
+  /* font-family: "Inter-Regular", sans-serif; */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.wrong__btn {
+  display: block;
+  margin: 36px auto 0 auto;
+  width: 140px;
+  height: 48px;
+  border: 0;
+  border-radius: 8px;
+  color: #8e2de2;
+  outline: 0;
+  /* font-family: "Inter-Regular", sans-serif; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+footer {
+  margin-bottom: 40px;
+  text-align: center;
+  /* font-family: "Inter-Regular", sans-serif; */
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+}

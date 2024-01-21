@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Mulish&display=swap"
+      rel="stylesheet"
+    /> -->
+    <title>Weather</title>
+  </head>
+  <body>
+    <header>
+      <p>Weather</p>
+    </header>
+    <main>
+      <div class="show__block">
+        <h1>8℃</h1>
+        <p class="show__location">Windy in Moscow</p>
+        <p class="show__changesity-p">Change city</p>
+      </div>
+      <div class="find__block">
+        <input
+          type="text"
+          class="find__text"
+          placeholder="Type your city here"
+        />
+        <!-- <div class="find__decorline"></div>  -->
+        <button class="find__btn">Find</button>
+      </div>
+      <div class="wrong__block">
+        <p class="wrong__uppertext">Ooops. Something went wrong.</p>
+        <p class="wrong__lowertext">Error info</p>
+        <button class="wrong__btn">Try again</button>
+      </div>
+    </main>
+    <footer>
+      <p>With ❤ by Alex</p>
+    </footer>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
